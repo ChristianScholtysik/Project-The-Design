@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+@font-face {
+  font-family: "Roboto Regular";
+  src: url(../fonts/Roboto-Regular.ttf);
+}
+
+@font-face {
+  font-family: "Roboto Bold";
+  src: url(../fonts/Roboto-Bold.ttf);
+}
+@font-face {
+  font-family: "Roboto Light";
+  src: url(../fonts/Roboto-Light.ttf);
+}
+
+html {
+  font-size: 20px;
+}
+
+body {
+  font-size: 1rem;
+  width: 100%;
+  padding: 1rem 1rem;
+  font-family: "Roboto Regular";
+}
+
+header {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-image: url(../img/ilustracion1.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center right;
+  margin-bottom: 15%;
+}
+.header_person {
+  margin-left: 39%;
+  margin-top: -50%;
+  padding-bottom: 20%;
+  width: 55%;
+  /* border: solid 3px purple; */
+}
+/*? Logo */
+
+.logo h2 {
+  font-family: "Roboto Bold";
+}
+.logo p {
+  font-family: "Roboto Regular";
+  font-size: 0.8rem;
+  margin-bottom: 48vh;
+}
+
+/* ? Header Textblock */
+
+.header_textBlock {
+  margin-left: 7%;
+}
+
+.header_textBlock h1 {
+  margin-bottom: 3vh;
+  display: flex;
+  flex-direction: row;
+  font-family: "Roboto Bold";
+  font-weight: 400;
+  font-size: 4rem;
+  width: 40vw;
+}
+.header_textBlock p {
+  font-family: "Roboto Light";
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+.rocketText {
+  display: flex;
+  margin-bottom: 10vh;
+}
+.rocketText img {
+  padding: -20px 0;
+}
+
+.Scroll {
+  font-family: "Roboto Bold";
+  font-size: 1.2rem;
+  color: #ff3571;
+}
+
+/* ? Image Gallery */
+.image_gallery img {
+  max-width: 100%;
+  padding: 1rem 1rem;
+  margin-bottom: 40vh;
+}
