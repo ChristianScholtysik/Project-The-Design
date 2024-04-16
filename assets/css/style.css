@@ -96,3 +96,179 @@ header {
   padding: 1rem 1rem;
   margin-bottom: 40vh;
 }
+
+/* ? every idea */
+.h2-wrapper {
+  flex-direction: column;
+  margin-left: 15rem;
+}
+
+.h2-wrapper h2 {
+  font-family: "Roboto Bold";
+  font-size: 2.5rem;
+}
+
+.h2-wrapper img {
+  width: 3vw;
+  padding-top: 2px;
+}
+.h2-wrapper h2:nth-of-type(1),
+.h2-wrapper img {
+  display: inline;
+}
+
+.text-wrapper {
+  display: flex;
+  gap: 15%;
+}
+
+.text-wrapper p {
+  font-family: "Roboto Light";
+  font-weight: 100;
+  width: 40%;
+  margin-bottom: 10%;
+}
+.idea_h2 {
+  font-family: "Roboto Bold";
+  margin-top: 5%;
+  margin-left: 20%;
+  margin-bottom: 15%;
+  width: 49%;
+  font-size: 2.5rem;
+}
+/* ? icon section */
+
+.icon-wrapper {
+  display: flex;
+}
+.icon-wrapper img {
+  display: flex;
+  width: 2.5vw;
+  padding-bottom: 8%;
+  margin-left: 15%;
+  margin-right: 2%;
+}
+
+.icon-wrapper h3 {
+  font-family: "Roboto Bold";
+}
+.icon-wrapper p {
+  margin: 5% 5%;
+  font-family: "Roboto Light";
+}
+
+.icon-wrapper-element {
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+  /* border: #ff3571 solid 3px; */
+}
+
+/* ? Are you ready */
+
+.are_you_ready {
+  margin-top: 20%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.are_you_ready p {
+  font-family: "Roboto Light";
+  font-weight: 100;
+  width: 30%;
+  text-align: center;
+  margin-top: 2%;
+}
+
+/* ? big gallery */
+/* right */
+.article-right {
+  display: flex;
+  gap: 15%;
+  margin: 8% 10%;
+}
+
+.article-right > img {
+  width: 30%;
+}
+
+.big_gallery_text h2 {
+  font-family: "Roboto Bold";
+  font-size: 2.5rem;
+  color: #dddddd;
+  margin: 2% 0;
+}
+
+.big_gallery_text img {
+  margin: 2% 0;
+}
+
+.big_gallery_text h3 {
+  font-family: "Roboto Bold";
+  font-size: 1.4rem;
+  width: 90%;
+  margin: 2% 0;
+}
+
+.big_gallery_text p {
+  font-family: "Roboto Light";
+  font-size: 1rem;
+  width: 90%;
+  margin: 5% 0;
+}
+/* left */
+.article-left {
+  display: flex;
+  gap: 25%;
+  margin: 8% 10%;
+}
+
+.article-left > img {
+  width: 30%;
+}
+
+.big_gallery_text {
+  margin-left: 2%;
+}
+
+.big_gallery_text h2 {
+  font-family: "Roboto Bold";
+  font-size: 2.5rem;
+  color: #dddddd;
+  margin: 2% 0;
+}
+
+.big_gallery_text img {
+  margin: 2% 0;
+}
+
+.big_gallery_text h3 {
+  font-family: "Roboto Bold";
+  font-size: 1.4rem;
+  width: 90%;
+  margin: 2% 0;
+}
+
+.big_gallery_text p {
+  font-family: "Roboto Light";
+  font-size: 1rem;
+  width: 102%;
+  margin: 5% 0;
+}
+
+/* ? Footer */
+
+footer {
+  margin-top: 10%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+footer h2 {
+  font-family: "Roboto Bold";
+  font-size: 1.5rem;
+}
