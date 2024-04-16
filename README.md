@@ -1,6 +1,6 @@
 # California Calling
 
-Live demo [_here_](https://christianscholtysik.github.io/California-Calling/).
+Live demo [_here_](https://christianscholtysik.github.io/Project-The-Design/).
 
 ## Table of Contents
 
@@ -19,4 +19,4 @@ Live demo [_here_](https://christianscholtysik.github.io/California-Calling/).
 
 ## Screenshots
 
-![Example screenshot](./assets/img/Californa-Calling.png)
+![Example screenshot](./assets/img/Project-The-Design.png)
