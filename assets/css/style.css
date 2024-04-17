@@ -39,12 +39,23 @@ header {
   background-position: center right;
   margin-bottom: 15%;
 }
+
+/* Up-Down-Girl */
 .header_person {
   margin-left: 39%;
   margin-top: -50%;
   padding-bottom: 20%;
   width: 55%;
-  /* border: solid 3px purple; */
+  animation: upDownGirl 3s infinite alternate ease-in-out;
+}
+
+@keyframes upDownGirl {
+  0% {
+    transform: translateY(-50px);
+  }
+  100% {
+    transform: translateY(50px);
+  }
 }
 /*? Logo */
 
